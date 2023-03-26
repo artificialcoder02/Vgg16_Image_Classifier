@@ -1,3 +1,7 @@
 model_vgg16.h5 filter=lfs diff=lfs merge=lfs -text
 *.ipynb filter=lfs diff=lfs merge=lfs -text
 cats_and_dogs/cats_and_dogs/model_vgg16.h5 filter=lfs diff=lfs merge=lfs -text
+. filter=lfs diff=lfs merge=lfs -text
+model_vgg16.h5 filter=lfs diff=lfs merge=lfs -text
+C:/Users/rctuh/Desktop/minor filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
