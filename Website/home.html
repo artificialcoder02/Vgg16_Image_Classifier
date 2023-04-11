@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cat-Dog Classifier using VGG16 Classifier</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+        h1 {
+            color: #333333;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h3 {
+            color:#333333;
+            text-align: center;
+            margin-top: 20px;
+        }
+        h4 {
+            color: #333333;
+            text-align: center;
+            margin-top: 20px;
+        }
+        form {
+            margin-top: 30px;
+            text-align: center;
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cat-Dog Classifier</h1>
+    <h3>Using VGG16 Classifier</h3>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file" accept=".jpg, .jpeg, .png">
+        <br>
+        <input type="submit" value="Upload and Predict">
+    </form>
+    <h4>Created by ArtificialCoder02</h4>
+</body>
+</html>
